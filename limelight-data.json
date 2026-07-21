@@ -1,0 +1,184 @@
+{
+  "snapshots": {
+    "snapshots": [
+      {
+        "date": "2026-07-06",
+        "label": "July 6, 2026",
+        "apps": {
+          "seguno": {
+            "rating": 4.8,
+            "total": 674,
+            "stars": {
+              "5": 607,
+              "4": 37,
+              "3": 14,
+              "2": 3,
+              "1": 13
+            },
+            "snippets": []
+          },
+          "bulk-discount-generator": {
+            "rating": 4.9,
+            "total": 260,
+            "stars": {
+              "5": 243,
+              "4": 8,
+              "3": 2,
+              "2": 0,
+              "1": 3
+            },
+            "snippets": []
+          },
+          "canva-connect": {
+            "rating": 4.9,
+            "total": 368,
+            "stars": {
+              "5": 348,
+              "4": 11,
+              "3": 3,
+              "2": 2,
+              "1": 4
+            },
+            "snippets": []
+          }
+        }
+      },
+      {
+        "date": "2026-07-13",
+        "label": "July 13, 2026",
+        "apps": {
+          "seguno": {
+            "rating": 4.8,
+            "total": 680,
+            "stars": {
+              "5": 613,
+              "4": 37,
+              "3": 14,
+              "2": 3,
+              "1": 13
+            },
+            "snippets": [
+              {
+                "text": "Seguno is THE BEST email marketing team out there! Lightyears better than any other email marketing app we've tried.",
+                "meta": "The Sugar Art, Inc. \u00b7 Apr 10, 2026",
+                "stars": 5
+              },
+              {
+                "text": "We've been using Seguno for years. A solid email platform at a fair price. Haven't found anything better.",
+                "meta": "ExcellentSupply.com \u00b7 Mar 16, 2026",
+                "stars": 5
+              },
+              {
+                "text": "Can't say enough about the amazing customer service. Hands down one of the BEST teams I've interacted with \u2014 across industries.",
+                "meta": "Rainflower Studio \u00b7 Apr 14, 2026",
+                "stars": 5
+              }
+            ]
+          },
+          "bulk-discount-generator": {
+            "rating": 4.9,
+            "total": 262,
+            "stars": {
+              "5": 245,
+              "4": 8,
+              "3": 2,
+              "2": 0,
+              "1": 3
+            },
+            "snippets": [
+              {
+                "text": "App works flawlessly. Great interface, intuitive and easy to use. Their customer service ROCKS. Highly recommended.",
+                "meta": "Timbuk2 \u00b7 Apr 30, 2026",
+                "stars": 5
+              },
+              {
+                "text": "Amazing app \u2014 so easy to use, and the customer support team is really lovely, efficient and helpful.",
+                "meta": "Zilker Belts \u00b7 Jan 14, 2026",
+                "stars": 5
+              },
+              {
+                "text": "This app has been great over the past few years. Keeps our brand organized and efficient.",
+                "meta": "KETL Mtn. Apparel \u00b7 Nov 17, 2025",
+                "stars": 4
+              }
+            ]
+          },
+          "canva-connect": {
+            "rating": 4.9,
+            "total": 371,
+            "stars": {
+              "5": 354,
+              "4": 9,
+              "3": 3,
+              "2": 1,
+              "1": 4
+            },
+            "snippets": [
+              {
+                "text": "Brian was super helpful and resolved any issues.",
+                "meta": "Store Fittings Direct \u00b7 June 2, 2026",
+                "stars": 5
+              },
+              {
+                "text": "I cannot believe I just found this app to integrate Canva with Shopify! It's a real game changer. Super easy to use!",
+                "meta": "Spiral Circle \u00b7 Apr 7, 2026",
+                "stars": 5
+              },
+              {
+                "text": "Canva Connect has made creating content so much easier for us. We can quickly make professional, on-brand designs.",
+                "meta": "BMTSHOP \u00b7 May 5, 2026",
+                "stars": 4
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "unreplied": {
+    "checkedAt": "Jul 13, 2026, 11:04 AM",
+    "results": {
+      "seguno": [
+        {
+          "reviewId": "2200001",
+          "store": "heart rebirth",
+          "date": "July 10, 2026",
+          "stars": 5,
+          "text": "Very user friendly. My newsletter format feels attractive and professional. People can easily click on links and purchase directly from my store. Responsive & efficient customer service. Issue resolved in 24h.",
+          "ratingOnly": false,
+          "url": "https://apps.shopify.com/reviews/2200001"
+        },
+        {
+          "reviewId": "2150001",
+          "store": "NEXORANO",
+          "date": "April 12, 2026",
+          "stars": 4,
+          "text": "",
+          "ratingOnly": true,
+          "url": "https://apps.shopify.com/reviews/2150001"
+        }
+      ],
+      "bulk-discount-generator": [],
+      "canva-connect": [
+        {
+          "reviewId": "2190001",
+          "store": "Sample Store",
+          "date": "July 8, 2026",
+          "stars": 5,
+          "text": "Love this app, makes my workflow so much faster. Would be great to have more template options.",
+          "ratingOnly": false,
+          "url": "https://apps.shopify.com/reviews/2190001"
+        },
+        {
+          "reviewId": "2180001",
+          "store": "Another Shop",
+          "date": "July 2, 2026",
+          "stars": 3,
+          "text": "Good app overall but had some syncing issues with my product images. Support was helpful.",
+          "ratingOnly": false,
+          "url": "https://apps.shopify.com/reviews/2180001"
+        }
+      ]
+    }
+  }
+}
