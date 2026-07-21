@@ -1,0 +1,12 @@
+{
+  "name": "limelight",
+  "version": "1.0.0",
+  "description": "Limelight — Shopify App Store review dashboard",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "update": "node update.js"
+  }
+}
