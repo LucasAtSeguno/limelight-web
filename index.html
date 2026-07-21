@@ -675,7 +675,13 @@ async function triggerUpdate() {
 
   try {
     const res = await fetch('/.netlify/functions/trigger-update', { method: 'POST' });
-    const result = await res.json();
+    const rawText = await res.text();
+    let result;
+    try {
+      result = JSON.parse(rawText);
+    } catch(e) {
+      throw new Error(`Function returned non-JSON (HTTP ${res.status}): ${rawText.slice(0, 200)}`);
+    }
 
     if (result.status === 'success') {
       text.textContent = 'Update complete — reloading…';
