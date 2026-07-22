@@ -1,9 +1,8 @@
 /**
  * Netlify serverless function — trigger-update
- * Called by the dashboard Update button.
- * Dispatches a workflow_dispatch event to GitHub Actions,
- * then polls until the run completes and returns the result.
- * The GitHub token is kept server-side and never exposed to the browser.
+ * Fires a GitHub Actions workflow_dispatch and returns immediately.
+ * The dashboard polls limelight-data.json directly to detect when
+ * the update is complete — no waiting in the function itself.
  */
 
 exports.handler = async (event) => {
@@ -13,7 +12,6 @@ exports.handler = async (event) => {
     'Content-Type': 'application/json',
   };
 
-  // Handle CORS preflight
   if (event.httpMethod === 'OPTIONS') {
     return { statusCode: 200, headers: CORS, body: '' };
   }
@@ -25,13 +23,12 @@ exports.handler = async (event) => {
     return {
       statusCode: 500,
       headers: CORS,
-      body: JSON.stringify({ error: 'Server configuration error — missing environment variables' }),
+      body: JSON.stringify({ error: 'Missing environment variables' }),
     };
   }
 
   try {
-    // Step 1 — Dispatch the workflow
-    const dispatchRes = await fetch(
+    const res = await fetch(
       `https://api.github.com/repos/${repo}/actions/workflows/update.yml/dispatches`,
       {
         method: 'POST',
@@ -44,75 +41,15 @@ exports.handler = async (event) => {
       }
     );
 
-    if (!dispatchRes.ok) {
-      const err = await dispatchRes.json().catch(() => ({}));
-      throw new Error(`Dispatch failed: ${dispatchRes.status} — ${err.message || 'unknown error'}`);
+    if (!res.ok) {
+      const err = await res.json().catch(() => ({}));
+      throw new Error(`GitHub dispatch failed: ${res.status} — ${err.message || 'unknown'}`);
     }
 
-    // Step 2 — Poll for the run to appear (GitHub takes a moment to create it)
-    let runId = null;
-    for (let attempt = 0; attempt < 10; attempt++) {
-      await delay(3000);
-      const runsRes = await fetch(
-        `https://api.github.com/repos/${repo}/actions/workflows/update.yml/runs?per_page=1&event=workflow_dispatch`,
-        {
-          headers: {
-            'Authorization': `Bearer ${token}`,
-            'Accept': 'application/vnd.github+json',
-          },
-        }
-      );
-      const runs = await runsRes.json();
-      if (runs.workflow_runs?.length > 0) {
-        runId = runs.workflow_runs[0].id;
-        break;
-      }
-    }
-
-    if (!runId) {
-      return {
-        statusCode: 202,
-        headers: CORS,
-        body: JSON.stringify({ status: 'dispatched', message: 'Workflow triggered — check back shortly.' }),
-      };
-    }
-
-    // Step 3 — Poll until complete (max ~3 minutes)
-    for (let attempt = 0; attempt < 36; attempt++) {
-      await delay(5000);
-      const runRes = await fetch(
-        `https://api.github.com/repos/${repo}/actions/runs/${runId}`,
-        {
-          headers: {
-            'Authorization': `Bearer ${token}`,
-            'Accept': 'application/vnd.github+json',
-          },
-        }
-      );
-      const run = await runRes.json();
-
-      if (run.status === 'completed') {
-        if (run.conclusion === 'success') {
-          return {
-            statusCode: 200,
-            headers: CORS,
-            body: JSON.stringify({ status: 'success', message: 'Update complete — reloading data.' }),
-          };
-        } else {
-          return {
-            statusCode: 500,
-            headers: CORS,
-            body: JSON.stringify({ status: 'failed', message: `Workflow ended with status: ${run.conclusion}` }),
-          };
-        }
-      }
-    }
-
-    // Timed out waiting — workflow is still running
     return {
-      statusCode: 202,
+      statusCode: 200,
       headers: CORS,
-      body: JSON.stringify({ status: 'timeout', message: 'Update is taking longer than expected — check back in a moment.' }),
+      body: JSON.stringify({ status: 'dispatched' }),
     };
 
   } catch (err) {
@@ -123,7 +60,3 @@ exports.handler = async (event) => {
     };
   }
 };
-
-function delay(ms) {
-  return new Promise(resolve => setTimeout(resolve, ms));
-}

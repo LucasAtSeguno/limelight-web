@@ -674,6 +674,7 @@ async function triggerUpdate() {
   text.textContent = 'Fetching fresh review data…';
 
   try {
+    // Step 1 — trigger the workflow (returns immediately)
     const res = await fetch('/.netlify/functions/trigger-update', { method: 'POST' });
     const rawText = await res.text();
     let result;
@@ -682,24 +683,39 @@ async function triggerUpdate() {
     } catch(e) {
       throw new Error(`Function returned non-JSON (HTTP ${res.status}): ${rawText.slice(0, 200)}`);
     }
+    if (result.error) throw new Error(result.error);
 
-    if (result.status === 'success') {
-      text.textContent = 'Update complete — reloading…';
-      spinner.style.display = 'none';
-      await new Promise(r => setTimeout(r, 1500));
-      const data = await loadData();
-      render(data);
-      bar.className = 'update-progress';
-    } else if (result.status === 'timeout' || result.status === 'dispatched') {
-      text.textContent = result.message + ' Reloading in 30 seconds…';
-      spinner.style.display = 'none';
-      await new Promise(r => setTimeout(r, 30000));
-      const data = await loadData();
-      render(data);
-      bar.className = 'update-progress';
-    } else {
-      throw new Error(result.message || result.error || 'Unknown error');
+    // Step 2 — poll limelight-data.json until data changes (max ~3 mins)
+    text.textContent = 'Update triggered — fetching fresh data…';
+    const currentData = await loadData();
+    const currentDate = currentData?.snapshots?.snapshots?.slice(-1)[0]?.date || '';
+    const currentChecked = currentData?.unreplied?.checkedAt || '';
+
+    let updated = false;
+    for (let i = 0; i < 36; i++) {
+      await new Promise(r => setTimeout(r, 5000));
+      const elapsed = Math.round((i + 1) * 5);
+      text.textContent = `Fetching fresh data… (${elapsed}s)`;
+      try {
+        const fresh = await loadData();
+        const freshDate = fresh?.snapshots?.snapshots?.slice(-1)[0]?.date || '';
+        const freshChecked = fresh?.unreplied?.checkedAt || '';
+        if (freshDate !== currentDate || freshChecked !== currentChecked) {
+          render(fresh);
+          updated = true;
+          break;
+        }
+      } catch(e) { /* keep polling */ }
     }
+
+    spinner.style.display = 'none';
+    if (updated) {
+      text.textContent = 'Update complete!';
+      setTimeout(() => { bar.className = 'update-progress'; }, 2000);
+    } else {
+      text.textContent = 'Update is taking longer than expected — try refreshing the page in a minute.';
+    }
+
   } catch (err) {
     bar.className = 'update-progress visible error';
     spinner.style.display = 'none';
