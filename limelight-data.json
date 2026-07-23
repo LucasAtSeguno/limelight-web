@@ -347,13 +347,13 @@
           },
           "bulk-discount-generator": {
             "rating": 4.9,
-            "total": 257,
+            "total": 256,
             "stars": {
               "1": 3,
               "2": 0,
               "3": 2,
               "4": 7,
-              "5": 245
+              "5": 244
             },
             "snippets": [
               {
@@ -406,20 +406,10 @@
     ]
   },
   "unreplied": {
-    "checkedAt": "Jul 23, 2026, 1:52 PM",
+    "checkedAt": "Jul 23, 2026, 8:41 PM",
     "results": {
       "seguno": [],
-      "bulk-discount-generator": [
-        {
-          "reviewId": "2294006",
-          "store": "Carpe",
-          "date": "July 22, 2026",
-          "stars": 5,
-          "text": "Easy to use app, with excellent customer support. Quick replies, very helpful!",
-          "ratingOnly": false,
-          "url": "https://apps.shopify.com/reviews/2294006"
-        }
-      ],
+      "bulk-discount-generator": [],
       "canva-connect": []
     }
   }
