@@ -1,12 +1,8 @@
 name: Update review data
 
 on:
-  # Run on a schedule — 9am and 3pm UTC on weekdays
-  # Adjust times to suit your timezone (UTC-5 EST: 9am EST = 14:00 UTC, 3pm EST = 20:00 UTC)
-  schedule:
-    - cron: '0 14,20 * * 1-5'
-
-  # Allow manual trigger from the dashboard Update button or GitHub UI
+  # Triggered on demand via the dashboard Update button or GitHub Actions UI
+  # Scheduled runs have been disabled to conserve Netlify deploy credits
   workflow_dispatch:
 
 jobs:
@@ -27,8 +23,3 @@ jobs:
           GITHUB_REPO: ${{ github.repository }}
         run: node update.js
 
-      - name: Trigger Netlify redeploy
-        if: success()
-        run: |
-          curl -s -X POST "${{ secrets.NETLIFY_HOOK_URL }}"
-          echo "Netlify redeploy triggered"

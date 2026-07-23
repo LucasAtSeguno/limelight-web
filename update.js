@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Limelight update script - intial deploy
+ * Limelight update script
  * Fetches review data from Shopify App Store and commits limelight-data.json to GitHub.
  * Runs via GitHub Actions on a schedule or on demand.
  * No external dependencies required — uses Node.js built-in fetch.
@@ -204,7 +204,7 @@ async function loadExistingData(token, repo) {
 async function commitData(token, repo, data, sha) {
   const content = Buffer.from(JSON.stringify(data, null, 2)).toString('base64');
   const body = {
-    message: `Update review data — ${new Date().toISOString().slice(0, 10)}`,
+    message: `Update review data — ${new Date().toISOString().slice(0, 10)} [skip netlify]`,
     content,
     ...(sha ? { sha } : {}),
   };

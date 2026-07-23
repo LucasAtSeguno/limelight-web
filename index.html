@@ -646,9 +646,13 @@ function render(data) {
   }
 }
 
-/* ── Load data from limelight-data.json ── */
+/* ── Load data from GitHub raw content ── */
+// Data is fetched directly from GitHub so Netlify doesn't need to redeploy
+// when review data updates — only code changes trigger a Netlify deploy.
+const GITHUB_RAW_URL = 'https://raw.githubusercontent.com/LucasAtSeguno/limelight-web/main/limelight-data.json';
+
 function loadData() {
-  return fetch(`limelight-data.json?t=${Date.now()}`)
+  return fetch(`${GITHUB_RAW_URL}?t=${Date.now()}`)
     .then(r => {
       if (!r.ok) throw new Error(`HTTP ${r.status}`);
       return r.json();
