@@ -312,14 +312,114 @@
             ]
           }
         }
+      },
+      {
+        "date": "2026-07-23",
+        "label": "July 23, 2026",
+        "apps": {
+          "seguno": {
+            "rating": 4.8,
+            "total": 646,
+            "stars": {
+              "1": 11,
+              "2": 4,
+              "3": 11,
+              "4": 33,
+              "5": 587
+            },
+            "snippets": [
+              {
+                "text": "Very user friendly. My newsletter format feels attractive and professional. People can easily click on links and purchase directly from my store.\nResponsive &amp; efficient customer service. Issue resolved in 24h.",
+                "meta": "heart rebirth · July 10, 2026",
+                "stars": 5
+              },
+              {
+                "text": "This app works really well with shopify.I think although the price increased it was worth it for how it looks and connects to products etc.",
+                "meta": "Julia  Ogden · June 30, 2026",
+                "stars": 5
+              },
+              {
+                "text": "Great app and support has always been great when I have needed it.",
+                "meta": "Otaku Scents · June 20, 2026",
+                "stars": 5
+              }
+            ]
+          },
+          "bulk-discount-generator": {
+            "rating": 4.9,
+            "total": 257,
+            "stars": {
+              "1": 3,
+              "2": 0,
+              "3": 2,
+              "4": 7,
+              "5": 245
+            },
+            "snippets": [
+              {
+                "text": "Easy to use app, with excellent customer support. Quick replies, very helpful!",
+                "meta": "Carpe · July 22, 2026",
+                "stars": 5
+              },
+              {
+                "text": "this is the easiest to use bulk discount tool i have found",
+                "meta": "League World · June 30, 2026",
+                "stars": 5
+              },
+              {
+                "text": "Easy to generate and upload bulk discounts for brand inserts, direct mail, and more marketing efforts. Great app.",
+                "meta": "The Sill · June 24, 2026",
+                "stars": 5
+              }
+            ]
+          },
+          "canva-connect": {
+            "rating": 4.8,
+            "total": 384,
+            "stars": {
+              "1": 5,
+              "2": 1,
+              "3": 3,
+              "4": 8,
+              "5": 367
+            },
+            "snippets": [
+              {
+                "text": "I have just started using the Canva Connect and find it a life saver being able to upload product pictures and make uniformed changes so much easier.",
+                "meta": "Chain Reaction Canada · July 14, 2026",
+                "stars": 5
+              },
+              {
+                "text": "Brian was super helpful and resolved any issues",
+                "meta": "Store Fittings Direct · June 2, 2026",
+                "stars": 5
+              },
+              {
+                "text": "I don't like it at all. I can't use this.",
+                "meta": "Oma kauppa · May 25, 2026",
+                "stars": 1
+              }
+            ]
+          }
+        }
       }
     ]
   },
   "unreplied": {
-    "checkedAt": "Jul 22, 2026, 11:34 PM",
+    "checkedAt": "Jul 23, 2026, 1:37 PM",
     "results": {
       "seguno": [],
-      "bulk-discount-generator": [],
+      "bulk-discount-generator": [
+        {
+          "reviewId": "2294006",
+          "store": "Carpe",
+          "date": "July 22, 2026",
+          "stars": 5,
+          "text": "Easy to use app, with excellent customer support. Quick replies, very helpful!",
+          "ratingOnly": false,
+          "url": "https://apps.shopify.com/reviews/2294006"
+        }
+      ],
       "canva-connect": []
     }
   }
