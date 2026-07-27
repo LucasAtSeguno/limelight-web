@@ -153,7 +153,7 @@ async function fetchAllData() {
   const today = new Date();
   const dateStr = today.toISOString().slice(0, 10);
   const label = today.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
-  const checkedAt = today.toLocaleString('en-US', { month: 'short', day: 'numeric', year: 'numeric', hour: 'numeric', minute: '2-digit' });
+  const checkedAt = today.toLocaleString('en-US', { month: 'short', day: 'numeric', year: 'numeric', hour: 'numeric', minute: '2-digit', timeZone: 'America/New_York' });
 
   const snapApps = {};
   const unrepliedResults = {};
