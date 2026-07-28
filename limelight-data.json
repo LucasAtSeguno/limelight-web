@@ -645,15 +645,20 @@
           },
           "canva-connect": {
             "rating": 4.8,
-            "total": 385,
+            "total": 386,
             "stars": {
               "1": 5,
               "2": 1,
               "3": 3,
               "4": 8,
-              "5": 368
+              "5": 369
             },
             "snippets": [
+              {
+                "text": "This app makes my life so much easier. I'm glad I found it! No more back and forth saving, I can import my work directly into my Shopify store!",
+                "meta": "Roppongi  · July 28, 2026",
+                "stars": 5
+              },
               {
                 "text": "Two of my favorite softwares (Canva and Shopify) are now connected and making my life easier!  Very happy customer!",
                 "meta": "The Ruddy Duck  · July 23, 2026",
@@ -663,11 +668,6 @@
                 "text": "I have just started using the Canva Connect and find it a life saver being able to upload product pictures and make uniformed changes so much easier.",
                 "meta": "Chain Reaction Canada · July 14, 2026",
                 "stars": 5
-              },
-              {
-                "text": "Brian was super helpful and resolved any issues",
-                "meta": "Store Fittings Direct · June 2, 2026",
-                "stars": 5
               }
             ]
           }
@@ -676,7 +676,7 @@
     ]
   },
   "unreplied": {
-    "checkedAt": "Jul 28, 2026, 10:37 AM",
+    "checkedAt": "Jul 28, 2026, 12:36 PM",
     "results": {
       "seguno": [
         {
@@ -701,6 +701,15 @@
         }
       ],
       "canva-connect": [
+        {
+          "reviewId": "2300678",
+          "store": "Roppongi ",
+          "date": "July 28, 2026",
+          "stars": 5,
+          "text": "This app makes my life so much easier. I'm glad I found it! No more back and forth saving, I can import my work directly into my Shopify store!",
+          "ratingOnly": false,
+          "url": "https://apps.shopify.com/reviews/2300678"
+        },
         {
           "reviewId": "2297923",
           "store": "Whiskers Haven",
