@@ -942,24 +942,115 @@
             ]
           }
         }
+      },
+      {
+        "date": "2026-08-03",
+        "label": "August 3, 2026",
+        "apps": {
+          "seguno": {
+            "rating": 4.8,
+            "total": 645,
+            "stars": {
+              "1": 11,
+              "2": 4,
+              "3": 11,
+              "4": 33,
+              "5": 586
+            },
+            "snippets": [
+              {
+                "text": "Very user friendly. My newsletter format feels attractive and professional. People can easily click on links and purchase directly from my store.\nResponsive &amp; efficient customer service. Issue resolved in 24h.",
+                "meta": "heart rebirth · July 10, 2026",
+                "stars": 5
+              },
+              {
+                "text": "This app works really well with shopify.I think although the price increased it was worth it for how it looks and connects to products etc.",
+                "meta": "Julia  Ogden · June 30, 2026",
+                "stars": 5
+              },
+              {
+                "text": "Great app and support has always been great when I have needed it.",
+                "meta": "Otaku Scents · June 20, 2026",
+                "stars": 5
+              }
+            ]
+          },
+          "bulk-discount-generator": {
+            "rating": 4.9,
+            "total": 258,
+            "stars": {
+              "1": 3,
+              "2": 0,
+              "3": 2,
+              "4": 7,
+              "5": 246
+            },
+            "snippets": [
+              {
+                "text": "Un’app molto utile per creare e importare codici sconto univoci su Shopify. Avevo bisogno di tre diverse campagne promozionali per i clienti del mio mercatino artigianale e ho potuto caricare facilmente tramite file CSV ",
+                "meta": "MANIKOCREATIONS - Handmade Art · August 2, 2026",
+                "stars": 5
+              },
+              {
+                "text": "Great app, works as expected and free plan was very generous, paid user now.",
+                "meta": "Rapid Flow · July 24, 2026",
+                "stars": 5
+              },
+              {
+                "text": "Easy to use app, with excellent customer support. Quick replies, very helpful!",
+                "meta": "Carpe · July 22, 2026",
+                "stars": 5
+              }
+            ]
+          },
+          "canva-connect": {
+            "rating": 4.8,
+            "total": 386,
+            "stars": {
+              "1": 5,
+              "2": 1,
+              "3": 3,
+              "4": 8,
+              "5": 369
+            },
+            "snippets": [
+              {
+                "text": "Shopify Connect has made the work so efficeint and organize.",
+                "meta": "Speedo Malaysia Online · July 30, 2026",
+                "stars": 5
+              },
+              {
+                "text": "This app makes my life so much easier. I'm glad I found it! No more back and forth saving, I can import my work directly into my Shopify store!",
+                "meta": "Roppongi  · July 28, 2026",
+                "stars": 5
+              },
+              {
+                "text": "Two of my favorite softwares (Canva and Shopify) are now connected and making my life easier!  Very happy customer!",
+                "meta": "The Ruddy Duck  · July 23, 2026",
+                "stars": 5
+              }
+            ]
+          }
+        }
       }
     ]
   },
   "unreplied": {
-    "checkedAt": "Jul 31, 2026, 12:45 PM",
+    "checkedAt": "Aug 3, 2026, 10:24 AM",
     "results": {
       "seguno": [],
-      "bulk-discount-generator": [],
-      "canva-connect": [
+      "bulk-discount-generator": [
         {
-          "reviewId": "2304731",
-          "store": "Yonge Street People",
-          "date": "July 30, 2026",
-          "stars": 2,
-          "text": "I am trying to communicate to you guys but I can't get a field to type in a message. I didn't know this store existed and I need to have my account disconnected to it because I am going to shut it down. Now that I am here, may I inquire as in to how many Canva accounts are associated with my Name; E",
+          "reviewId": "2307323",
+          "store": "MANIKOCREATIONS - Handmade Art",
+          "date": "August 2, 2026",
+          "stars": 5,
+          "text": "Un’app molto utile per creare e importare codici sconto univoci su Shopify. Avevo bisogno di tre diverse campagne promozionali per i clienti del mio mercatino artigianale e ho potuto caricare facilmente tramite file CSV i codici che avevo già stampato. I codici sono stati importati correttamente e h",
           "ratingOnly": false,
-          "url": "https://apps.shopify.com/reviews/2304731"
-        },
+          "url": "https://apps.shopify.com/reviews/2307323"
+        }
+      ],
+      "canva-connect": [
         {
           "reviewId": "2303670",
           "store": "Speedo Malaysia Online",
