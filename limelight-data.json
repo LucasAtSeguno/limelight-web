@@ -1212,11 +1212,101 @@
             ]
           }
         }
+      },
+      {
+        "date": "2026-08-19",
+        "label": "August 19, 2026",
+        "apps": {
+          "seguno": {
+            "rating": 4.8,
+            "total": 650,
+            "stars": {
+              "1": 11,
+              "2": 4,
+              "3": 10,
+              "4": 33,
+              "5": 592
+            },
+            "snippets": [
+              {
+                "text": "Easy to use and build beautiful newsletters and the customer service is such great support!",
+                "meta": "Paavani Ayurveda · August 13, 2026",
+                "stars": 5
+              },
+              {
+                "text": "This is a fantastic app to send newsletters to your subscribers and working with Josh to walked me through the process was wonderful.  I hope I get him again if I need to chat.  Thanks Josh!",
+                "meta": "BB's Beauty Supply & Boutyque · August 13, 2026",
+                "stars": 5
+              },
+              {
+                "text": "I've been with Seguno for over 3 yrs now and can't praise the team enough for all the support and strategic insight provided. It's easy to use, integrates well into Shopify and Our results have improved year on year. If ",
+                "meta": "Toast'd · August 13, 2026",
+                "stars": 5
+              }
+            ]
+          },
+          "bulk-discount-generator": {
+            "rating": 4.9,
+            "total": 257,
+            "stars": {
+              "1": 3,
+              "2": 0,
+              "3": 2,
+              "4": 7,
+              "5": 245
+            },
+            "snippets": [
+              {
+                "text": "Good for Bulk discounts",
+                "meta": "Azistastore · August 8, 2026",
+                "stars": 5
+              },
+              {
+                "text": "Un’app molto utile per creare e importare codici sconto univoci su Shopify. Avevo bisogno di tre diverse campagne promozionali per i clienti del mio mercatino artigianale e ho potuto caricare facilmente tramite file CSV ",
+                "meta": "MANIKOCREATIONS - Handmade Art · August 2, 2026",
+                "stars": 5
+              },
+              {
+                "text": "Great app, works as expected and free plan was very generous, paid user now.",
+                "meta": "Rapid Flow · July 24, 2026",
+                "stars": 5
+              }
+            ]
+          },
+          "canva-connect": {
+            "rating": 4.8,
+            "total": 386,
+            "stars": {
+              "1": 5,
+              "2": 1,
+              "3": 3,
+              "4": 8,
+              "5": 369
+            },
+            "snippets": [
+              {
+                "text": "Shopify Connect has made the work so efficeint and organize.",
+                "meta": "Speedo Malaysia Online · July 30, 2026",
+                "stars": 5
+              },
+              {
+                "text": "This app makes my life so much easier. I'm glad I found it! No more back and forth saving, I can import my work directly into my Shopify store!",
+                "meta": "Roppongi  · July 28, 2026",
+                "stars": 5
+              },
+              {
+                "text": "Two of my favorite softwares (Canva and Shopify) are now connected and making my life easier!  Very happy customer!",
+                "meta": "The Ruddy Duck  · July 23, 2026",
+                "stars": 5
+              }
+            ]
+          }
+        }
       }
     ]
   },
   "unreplied": {
-    "checkedAt": "Aug 18, 2026, 9:57 AM",
+    "checkedAt": "Aug 19, 2026, 1:50 PM",
     "results": {
       "seguno": [],
       "bulk-discount-generator": [],
