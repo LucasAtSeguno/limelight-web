@@ -1752,35 +1752,105 @@
             ]
           }
         }
+      },
+      {
+        "date": "2026-08-31",
+        "label": "August 31, 2026",
+        "apps": {
+          "seguno": {
+            "rating": 4.8,
+            "total": 652,
+            "stars": {
+              "1": 11,
+              "2": 4,
+              "3": 10,
+              "4": 33,
+              "5": 594
+            },
+            "snippets": [
+              {
+                "text": "Seguno is so easy to use and well integrated with Shopify, that building campaigns and automations was really quick and straightforward to do. Their team are also super responsive, so if you have any issues or questions,",
+                "meta": "The Scottish Fine Soaps Company · August 21, 2026",
+                "stars": 5
+              },
+              {
+                "text": "Bonne solution. Et service de support au top.",
+                "meta": "Vegaoo · August 20, 2026",
+                "stars": 5
+              },
+              {
+                "text": "Easy to use and build beautiful newsletters and the customer service is such great support!",
+                "meta": "Paavani Ayurveda · August 13, 2026",
+                "stars": 5
+              }
+            ]
+          },
+          "bulk-discount-generator": {
+            "rating": 4.9,
+            "total": 257,
+            "stars": {
+              "1": 3,
+              "2": 0,
+              "3": 2,
+              "4": 7,
+              "5": 245
+            },
+            "snippets": [
+              {
+                "text": "Good for Bulk discounts",
+                "meta": "Azistastore · August 8, 2026",
+                "stars": 5
+              },
+              {
+                "text": "Un’app molto utile per creare e importare codici sconto univoci su Shopify. Avevo bisogno di tre diverse campagne promozionali per i clienti del mio mercatino artigianale e ho potuto caricare facilmente tramite file CSV ",
+                "meta": "MANIKOCREATIONS - Handmade Art · August 2, 2026",
+                "stars": 5
+              },
+              {
+                "text": "Great app, works as expected and free plan was very generous, paid user now.",
+                "meta": "Rapid Flow · July 24, 2026",
+                "stars": 5
+              }
+            ]
+          },
+          "canva-connect": {
+            "rating": 4.8,
+            "total": 386,
+            "stars": {
+              "1": 5,
+              "2": 1,
+              "3": 3,
+              "4": 8,
+              "5": 369
+            },
+            "snippets": [
+              {
+                "text": "This has made our Shopify design workflow much easier. Being able to access product images and videos directly in Canva means we no longer have to keep downloading and re-uploading files. I can quickly create polished vi",
+                "meta": "Tidepoolkids Online · August 25, 2026",
+                "stars": 5
+              },
+              {
+                "text": "Shopify Connect has made the work so efficeint and organize.",
+                "meta": "Speedo Malaysia Online · July 30, 2026",
+                "stars": 5
+              },
+              {
+                "text": "This app makes my life so much easier. I'm glad I found it! No more back and forth saving, I can import my work directly into my Shopify store!",
+                "meta": "Roppongi  · July 28, 2026",
+                "stars": 5
+              }
+            ]
+          }
+        }
       }
     ]
   },
   "unreplied": {
-    "checkedAt": "Aug 28, 2026, 11:06 AM",
+    "checkedAt": "Aug 31, 2026, 1:29 PM",
     "results": {
-      "seguno": [
-        {
-          "reviewId": "2337183",
-          "store": "Buzzi Lario",
-          "date": "August 26, 2026",
-          "stars": 2,
-          "text": "Too expansive",
-          "ratingOnly": false,
-          "url": "https://apps.shopify.com/reviews/2337183"
-        }
-      ],
+      "seguno": [],
       "bulk-discount-generator": [],
-      "canva-connect": [
-        {
-          "reviewId": "2335454",
-          "store": "Tidepoolkids Online",
-          "date": "August 25, 2026",
-          "stars": 5,
-          "text": "This has made our Shopify design workflow much easier. Being able to access product images and videos directly in Canva means we no longer have to keep downloading and re-uploading files. I can quickly create polished visuals, make updates, and send the designs back to Shopify without disrupting the",
-          "ratingOnly": false,
-          "url": "https://apps.shopify.com/reviews/2335454"
-        }
-      ]
+      "canva-connect": []
     }
   }
 }
