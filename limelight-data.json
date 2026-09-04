@@ -2022,81 +2022,105 @@
             ]
           }
         }
+      },
+      {
+        "date": "2026-09-04",
+        "label": "September 4, 2026",
+        "apps": {
+          "seguno": {
+            "rating": 4.8,
+            "total": 728,
+            "stars": {
+              "1": 14,
+              "2": 4,
+              "3": 12,
+              "4": 38,
+              "5": 660
+            },
+            "snippets": [
+              {
+                "text": "We’ve been using Seguno for a while now and honestly, they’ve been brilliant. Their customer service leaves MailChimp and Klaviyo in the dust — fast, friendly, and actually helpful. The Shopify integration is smooth as b",
+                "meta": "socksforliving.com · September 1, 2026",
+                "stars": 5
+              },
+              {
+                "text": "Sometimes I get stuck but I know Seguno help will rescue me. They are always quick to respond, patient and helpful",
+                "meta": "alittletangledyarn · August 31, 2026",
+                "stars": 5
+              },
+              {
+                "text": "Seguno is so easy to use and well integrated with Shopify, that building campaigns and automations was really quick and straightforward to do. Their team are also super responsive, so if you have any issues or questions,",
+                "meta": "The Scottish Fine Soaps Company · August 21, 2026",
+                "stars": 5
+              }
+            ]
+          },
+          "bulk-discount-generator": {
+            "rating": 4.9,
+            "total": 274,
+            "stars": {
+              "1": 3,
+              "2": 0,
+              "3": 2,
+              "4": 8,
+              "5": 261
+            },
+            "snippets": [
+              {
+                "text": "it's done exactly what I need it for.",
+                "meta": "LOINS · September 1, 2026",
+                "stars": 5
+              },
+              {
+                "text": "We are a Very Small Store but used this app to create individual discount codes to give certain customers specific discounts. We also used it to create a sort of \"gift certificate\" situation where someone could buy an on",
+                "meta": "SIMIODE · September 1, 2026",
+                "stars": 5
+              },
+              {
+                "text": "Good for Bulk discounts",
+                "meta": "Azistastore · August 8, 2026",
+                "stars": 5
+              }
+            ]
+          },
+          "canva-connect": {
+            "rating": 4.8,
+            "total": 400,
+            "stars": {
+              "1": 5,
+              "2": 1,
+              "3": 3,
+              "4": 9,
+              "5": 382
+            },
+            "snippets": [
+              {
+                "text": "This has made our Shopify design workflow much easier. Being able to access product images and videos directly in Canva means we no longer have to keep downloading and re-uploading files. I can quickly create polished vi",
+                "meta": "Tidepoolkids Online · August 25, 2026",
+                "stars": 5
+              },
+              {
+                "text": "Shopify Connect has made the work so efficeint and organize.",
+                "meta": "Speedo Malaysia Online · July 30, 2026",
+                "stars": 5
+              },
+              {
+                "text": "This app makes my life so much easier. I'm glad I found it! No more back and forth saving, I can import my work directly into my Shopify store!",
+                "meta": "Roppongi  · July 28, 2026",
+                "stars": 5
+              }
+            ]
+          }
+        }
       }
     ]
   },
   "unreplied": {
-    "checkedAt": "Sep 3, 2026, 12:02 PM",
+    "checkedAt": "Sep 4, 2026, 11:32 AM",
     "results": {
-      "seguno": [
-        {
-          "reviewId": "2344682",
-          "store": "socksforliving.com",
-          "date": "September 1, 2026",
-          "stars": 5,
-          "text": "We’ve been using Seguno for a while now and honestly, they’ve been brilliant. Their customer service leaves MailChimp and Klaviyo in the dust — fast, friendly, and actually helpful. The Shopify integration is smooth as butter, and the ongoing improvements like optimised sending and better flows keep",
-          "ratingOnly": false,
-          "url": "https://apps.shopify.com/reviews/2344682"
-        },
-        {
-          "reviewId": "2343033",
-          "store": "alittletangledyarn",
-          "date": "August 31, 2026",
-          "stars": 5,
-          "text": "Sometimes I get stuck but I know Seguno help will rescue me. They are always quick to respond, patient and helpful",
-          "ratingOnly": false,
-          "url": "https://apps.shopify.com/reviews/2343033"
-        }
-      ],
-      "bulk-discount-generator": [
-        {
-          "reviewId": "2344530",
-          "store": "LOINS",
-          "date": "September 1, 2026",
-          "stars": 5,
-          "text": "it's done exactly what I need it for.",
-          "ratingOnly": false,
-          "url": "https://apps.shopify.com/reviews/2344530"
-        },
-        {
-          "reviewId": "2344327",
-          "store": "SIMIODE",
-          "date": "September 1, 2026",
-          "stars": 5,
-          "text": "We are a Very Small Store but used this app to create individual discount codes to give certain customers specific discounts. We also used it to create a sort of \"gift certificate\" situation where someone could buy an online product as a gift by giving the recipient a one-time discount code to use t",
-          "ratingOnly": false,
-          "url": "https://apps.shopify.com/reviews/2344327"
-        }
-      ],
-      "canva-connect": [
-        {
-          "reviewId": "2320426",
-          "store": "Mayra and Company",
-          "date": "August 12, 2026",
-          "stars": 5,
-          "text": "Great , for use",
-          "ratingOnly": false,
-          "url": "https://apps.shopify.com/reviews/2320426"
-        },
-        {
-          "reviewId": "2297731",
-          "store": "  Shoptonyg.com",
-          "date": "July 25, 2026",
-          "stars": 5,
-          "text": "",
-          "ratingOnly": true,
-          "url": "https://apps.shopify.com/reviews/2297731"
-        },
-        {
-          "reviewId": "2226434",
-          "store": "Rebuy Sverige AB",
-          "date": "June 1, 2026",
-          "stars": 5,
-          "text": "Great!",
-          "ratingOnly": false,
-          "url": "https://apps.shopify.com/reviews/2226434"
-        }
-      ]
+      "seguno": [],
+      "bulk-discount-generator": [],
+      "canva-connect": []
     }
   }
 }
