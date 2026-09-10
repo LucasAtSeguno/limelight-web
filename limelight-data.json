@@ -2292,13 +2292,112 @@
             ]
           }
         }
+      },
+      {
+        "date": "2026-09-10",
+        "label": "September 10, 2026",
+        "apps": {
+          "seguno": {
+            "rating": 4.8,
+            "total": 728,
+            "stars": {
+              "1": 14,
+              "2": 4,
+              "3": 12,
+              "4": 37,
+              "5": 661
+            },
+            "snippets": [
+              {
+                "text": "Excelente herramienta y buena atención al cliente cuando no se como funciona algo. TOP!!!",
+                "meta": "Ready-Shades · September 9, 2026",
+                "stars": 5
+              },
+              {
+                "text": "We've tried several mass email options out there but we could never seem to grow our email list until we started using Seguno! We've absolutely loved how user friendly it is and our email list has more than doubled in th",
+                "meta": "Backfire · September 8, 2026",
+                "stars": 5
+              },
+              {
+                "text": "We’ve been using Seguno for a while now and honestly, they’ve been brilliant. Their customer service leaves MailChimp and Klaviyo in the dust — fast, friendly, and actually helpful. The Shopify integration is smooth as b",
+                "meta": "socksforliving.com · September 1, 2026",
+                "stars": 5
+              }
+            ]
+          },
+          "bulk-discount-generator": {
+            "rating": 4.9,
+            "total": 274,
+            "stars": {
+              "1": 3,
+              "2": 0,
+              "3": 2,
+              "4": 8,
+              "5": 261
+            },
+            "snippets": [
+              {
+                "text": "it's done exactly what I need it for.",
+                "meta": "LOINS · September 1, 2026",
+                "stars": 5
+              },
+              {
+                "text": "We are a Very Small Store but used this app to create individual discount codes to give certain customers specific discounts. We also used it to create a sort of \"gift certificate\" situation where someone could buy an on",
+                "meta": "SIMIODE · September 1, 2026",
+                "stars": 5
+              },
+              {
+                "text": "Good for Bulk discounts",
+                "meta": "Azistastore · August 8, 2026",
+                "stars": 5
+              }
+            ]
+          },
+          "canva-connect": {
+            "rating": 4.8,
+            "total": 400,
+            "stars": {
+              "1": 5,
+              "2": 1,
+              "3": 3,
+              "4": 9,
+              "5": 382
+            },
+            "snippets": [
+              {
+                "text": "This has made our Shopify design workflow much easier. Being able to access product images and videos directly in Canva means we no longer have to keep downloading and re-uploading files. I can quickly create polished vi",
+                "meta": "Tidepoolkids Online · August 25, 2026",
+                "stars": 5
+              },
+              {
+                "text": "Canva Connect has been a huge productivity boost for creating high-quality product images and keeping our design workflow streamlined. While there is definitely a learning curve when first setting things up, the app gene",
+                "meta": "Savannah Lane Jewelry · August 23, 2026",
+                "stars": 5
+              },
+              {
+                "text": "Shopify Connect has made the work so efficeint and organize.",
+                "meta": "Speedo Malaysia Online · July 30, 2026",
+                "stars": 5
+              }
+            ]
+          }
+        }
       }
     ]
   },
   "unreplied": {
-    "checkedAt": "Sep 9, 2026, 10:04 AM",
+    "checkedAt": "Sep 10, 2026, 2:21 PM",
     "results": {
       "seguno": [
+        {
+          "reviewId": "2354202",
+          "store": "Ready-Shades",
+          "date": "September 9, 2026",
+          "stars": 5,
+          "text": "Excelente herramienta y buena atención al cliente cuando no se como funciona algo. TOP!!!",
+          "ratingOnly": false,
+          "url": "https://apps.shopify.com/reviews/2354202"
+        },
         {
           "reviewId": "2353186",
           "store": "Backfire",
