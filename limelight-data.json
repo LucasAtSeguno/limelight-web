@@ -2922,13 +2922,112 @@
             ]
           }
         }
+      },
+      {
+        "date": "2026-09-23",
+        "label": "September 23, 2026",
+        "apps": {
+          "seguno": {
+            "rating": 4.8,
+            "total": 729,
+            "stars": {
+              "1": 14,
+              "2": 4,
+              "3": 12,
+              "4": 37,
+              "5": 662
+            },
+            "snippets": [
+              {
+                "text": "Excellent support and an app that actually works. We had issues moving from Magento and Mail Chimp to Shopify inbuilt email as it was not correctly tracking orders. Seguno does this well and their support is excellent.",
+                "meta": "Innes · September 23, 2026",
+                "stars": 5
+              },
+              {
+                "text": "This app makes managing my emails so much easier. I had one issue in the years I've been using this and developers fixed it in about 30 minutes. Definitely worth it.",
+                "meta": "The Cult Glitter Co. · September 21, 2026",
+                "stars": 5
+              },
+              {
+                "text": "Great customer service",
+                "meta": "Farmhouse Teas · September 17, 2026",
+                "stars": 5
+              }
+            ]
+          },
+          "bulk-discount-generator": {
+            "rating": 4.9,
+            "total": 273,
+            "stars": {
+              "1": 3,
+              "2": 0,
+              "3": 2,
+              "4": 8,
+              "5": 260
+            },
+            "snippets": [
+              {
+                "text": "Great tool! It's easy to use, does exactly what it promises, and makes generating discount codes incredibly simple. Customer support is quick to respond and very helpful. Highly recommend for anyone looking for a straigh",
+                "meta": "shop.luckymobile.ca · September 11, 2026",
+                "stars": 5
+              },
+              {
+                "text": "it's done exactly what I need it for.",
+                "meta": "LOINS · September 1, 2026",
+                "stars": 5
+              },
+              {
+                "text": "We are a Very Small Store but used this app to create individual discount codes to give certain customers specific discounts. We also used it to create a sort of \"gift certificate\" situation where someone could buy an on",
+                "meta": "SIMIODE · September 1, 2026",
+                "stars": 5
+              }
+            ]
+          },
+          "canva-connect": {
+            "rating": 4.8,
+            "total": 400,
+            "stars": {
+              "1": 5,
+              "2": 1,
+              "3": 3,
+              "4": 9,
+              "5": 382
+            },
+            "snippets": [
+              {
+                "text": "Canva Connect has been a huge productivity boost for creating high-quality product images and keeping our design workflow streamlined. While there is definitely a learning curve when first setting things up, the app gene",
+                "meta": "Savannah Lane Jewelry · August 23, 2026",
+                "stars": 5
+              },
+              {
+                "text": "Easily accomplish all goals and the set up to connect to Shopify was simple.",
+                "meta": "Lifestyle Haven · August 12, 2026",
+                "stars": 5
+              },
+              {
+                "text": "Shopify Connect has made the work so efficeint and organize.",
+                "meta": "Speedo Malaysia Online · July 30, 2026",
+                "stars": 5
+              }
+            ]
+          }
+        }
       }
     ]
   },
   "unreplied": {
-    "checkedAt": "Sep 22, 2026, 10:35 AM",
+    "checkedAt": "Sep 23, 2026, 1:10 PM",
     "results": {
       "seguno": [
+        {
+          "reviewId": "2370456",
+          "store": "Innes",
+          "date": "September 23, 2026",
+          "stars": 5,
+          "text": "Excellent support and an app that actually works. We had issues moving from Magento and Mail Chimp to Shopify inbuilt email as it was not correctly tracking orders. Seguno does this well and their support is excellent.",
+          "ratingOnly": false,
+          "url": "https://apps.shopify.com/reviews/2370456"
+        },
         {
           "reviewId": "2368247",
           "store": "The Cult Glitter Co.",
