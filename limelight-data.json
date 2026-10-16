@@ -3192,72 +3192,105 @@
             ]
           }
         }
+      },
+      {
+        "date": "2026-10-16",
+        "label": "October 16, 2026",
+        "apps": {
+          "seguno": {
+            "rating": 4.8,
+            "total": 733,
+            "stars": {
+              "1": 14,
+              "2": 4,
+              "3": 12,
+              "4": 37,
+              "5": 666
+            },
+            "snippets": [
+              {
+                "text": "The app itself is excellent and the customer service is also outstanding. I have no complaints at all.",
+                "meta": "Adept Cosmetics Global · October 1, 2026",
+                "stars": 5
+              },
+              {
+                "text": "Excellent support and an app that actually works. We had issues moving from Magento and Mail Chimp to Shopify inbuilt email as it was not correctly tracking orders. Seguno does this well and their support is excellent.",
+                "meta": "Innes · September 23, 2026",
+                "stars": 5
+              },
+              {
+                "text": "This app makes managing my emails so much easier. I had one issue in the years I've been using this and developers fixed it in about 30 minutes. Definitely worth it.",
+                "meta": "The Cult Glitter Co. · September 21, 2026",
+                "stars": 5
+              }
+            ]
+          },
+          "bulk-discount-generator": {
+            "rating": 4.9,
+            "total": 275,
+            "stars": {
+              "1": 3,
+              "2": 0,
+              "3": 2,
+              "4": 9,
+              "5": 261
+            },
+            "snippets": [
+              {
+                "text": "tres facile d'utilisation et tres pratique",
+                "meta": "Ekkivibes · October 4, 2026",
+                "stars": 5
+              },
+              {
+                "text": "I love this app so much, but I wish Shopify would buy them out or they'd offer more codes at a discount. 4 stars because of the price. Thankfully this app exists but the price is steep considering we don't use it too oft",
+                "meta": "Bombshell Sportswear · September 23, 2026",
+                "stars": 4
+              },
+              {
+                "text": "Great tool! It's easy to use, does exactly what it promises, and makes generating discount codes incredibly simple. Customer support is quick to respond and very helpful. Highly recommend for anyone looking for a straigh",
+                "meta": "shop.luckymobile.ca · September 11, 2026",
+                "stars": 5
+              }
+            ]
+          },
+          "canva-connect": {
+            "rating": 4.8,
+            "total": 399,
+            "stars": {
+              "1": 5,
+              "2": 1,
+              "3": 3,
+              "4": 9,
+              "5": 381
+            },
+            "snippets": [
+              {
+                "text": "This has made our Shopify design workflow much easier. Being able to access product images and videos directly in Canva means we no longer have to keep downloading and re-uploading files. I can quickly create polished vi",
+                "meta": "Tidepoolkids Online · August 25, 2026",
+                "stars": 5
+              },
+              {
+                "text": "Canva Connect has been a huge productivity boost for creating high-quality product images and keeping our design workflow streamlined. While there is definitely a learning curve when first setting things up, the app gene",
+                "meta": "Savannah Lane Jewelry · August 23, 2026",
+                "stars": 5
+              },
+              {
+                "text": "The best  app ever, in it's category....",
+                "meta": "NORTH BERRY · August 17, 2026",
+                "stars": 5
+              }
+            ]
+          }
+        }
       }
     ]
   },
   "unreplied": {
-    "checkedAt": "Oct 13, 2026, 1:17 PM",
+    "checkedAt": "Oct 16, 2026, 2:30 PM",
     "results": {
-      "seguno": [
-        {
-          "reviewId": "2381092",
-          "store": "Adept Cosmetics Global",
-          "date": "October 1, 2026",
-          "stars": 5,
-          "text": "The app itself is excellent and the customer service is also outstanding. I have no complaints at all.",
-          "ratingOnly": false,
-          "url": "https://apps.shopify.com/reviews/2381092"
-        },
-        {
-          "reviewId": "2370892",
-          "store": "KATVR",
-          "date": "September 23, 2026",
-          "stars": 5,
-          "text": "",
-          "ratingOnly": true,
-          "url": "https://apps.shopify.com/reviews/2370892"
-        }
-      ],
-      "bulk-discount-generator": [
-        {
-          "reviewId": "2383836",
-          "store": "Ekkivibes",
-          "date": "October 4, 2026",
-          "stars": 5,
-          "text": "tres facile d'utilisation et tres pratique",
-          "ratingOnly": false,
-          "url": "https://apps.shopify.com/reviews/2383836"
-        },
-        {
-          "reviewId": "2371449",
-          "store": "Bombshell Sportswear",
-          "date": "September 23, 2026",
-          "stars": 4,
-          "text": "I love this app so much, but I wish Shopify would buy them out or they'd offer more codes at a discount. 4 stars because of the price. Thankfully this app exists but the price is steep considering we don't use it too often. Other than that, great app - easy to use!",
-          "ratingOnly": false,
-          "url": "https://apps.shopify.com/reviews/2371449"
-        }
-      ],
-      "canva-connect": [
-        {
-          "reviewId": "2325329",
-          "store": "NORTH BERRY",
-          "date": "August 17, 2026",
-          "stars": 5,
-          "text": "The best  app ever, in it's category....",
-          "ratingOnly": false,
-          "url": "https://apps.shopify.com/reviews/2325329"
-        },
-        {
-          "reviewId": "2286145",
-          "store": "mellowleafteabar",
-          "date": "July 16, 2026",
-          "stars": 5,
-          "text": "",
-          "ratingOnly": true,
-          "url": "https://apps.shopify.com/reviews/2286145"
-        }
-      ]
+      "seguno": [],
+      "bulk-discount-generator": [],
+      "canva-connect": []
     }
   }
 }
