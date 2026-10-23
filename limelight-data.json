@@ -3462,14 +3462,114 @@
             ]
           }
         }
+      },
+      {
+        "date": "2026-10-23",
+        "label": "October 23, 2026",
+        "apps": {
+          "seguno": {
+            "rating": 4.8,
+            "total": 731,
+            "stars": {
+              "1": 14,
+              "2": 4,
+              "3": 12,
+              "4": 37,
+              "5": 664
+            },
+            "snippets": [
+              {
+                "text": "The app itself is excellent and the customer service is also outstanding. I have no complaints at all.",
+                "meta": "Adept Cosmetics Global · October 1, 2026",
+                "stars": 5
+              },
+              {
+                "text": "Excellent support and an app that actually works. We had issues moving from Magento and Mail Chimp to Shopify inbuilt email as it was not correctly tracking orders. Seguno does this well and their support is excellent.",
+                "meta": "Innes · September 23, 2026",
+                "stars": 5
+              },
+              {
+                "text": "This app makes managing my emails so much easier. I had one issue in the years I've been using this and developers fixed it in about 30 minutes. Definitely worth it.",
+                "meta": "The Cult Glitter Co. · September 21, 2026",
+                "stars": 5
+              }
+            ]
+          },
+          "bulk-discount-generator": {
+            "rating": 4.9,
+            "total": 275,
+            "stars": {
+              "1": 3,
+              "2": 0,
+              "3": 2,
+              "4": 9,
+              "5": 261
+            },
+            "snippets": [
+              {
+                "text": "Easy to use! Very helpful staff!",
+                "meta": "SammiBee · October 22, 2026",
+                "stars": 5
+              },
+              {
+                "text": "tres facile d'utilisation et tres pratique",
+                "meta": "Ekkivibes · October 4, 2026",
+                "stars": 5
+              },
+              {
+                "text": "I love this app so much, but I wish Shopify would buy them out or they'd offer more codes at a discount. 4 stars because of the price. Thankfully this app exists but the price is steep considering we don't use it too oft",
+                "meta": "Bombshell Sportswear · September 23, 2026",
+                "stars": 4
+              }
+            ]
+          },
+          "canva-connect": {
+            "rating": 4.8,
+            "total": 399,
+            "stars": {
+              "1": 5,
+              "2": 1,
+              "3": 3,
+              "4": 9,
+              "5": 381
+            },
+            "snippets": [
+              {
+                "text": "This has made our Shopify design workflow much easier. Being able to access product images and videos directly in Canva means we no longer have to keep downloading and re-uploading files. I can quickly create polished vi",
+                "meta": "Tidepoolkids Online · August 25, 2026",
+                "stars": 5
+              },
+              {
+                "text": "Canva Connect has been a huge productivity boost for creating high-quality product images and keeping our design workflow streamlined. While there is definitely a learning curve when first setting things up, the app gene",
+                "meta": "Savannah Lane Jewelry · August 23, 2026",
+                "stars": 5
+              },
+              {
+                "text": "The best  app ever, in it's category....",
+                "meta": "NORTH BERRY · August 17, 2026",
+                "stars": 5
+              }
+            ]
+          }
+        }
       }
     ]
   },
   "unreplied": {
-    "checkedAt": "Oct 20, 2026, 10:04 AM",
+    "checkedAt": "Oct 23, 2026, 1:29 PM",
     "results": {
       "seguno": [],
-      "bulk-discount-generator": [],
+      "bulk-discount-generator": [
+        {
+          "reviewId": "2404505",
+          "store": "SammiBee",
+          "date": "October 22, 2026",
+          "stars": 5,
+          "text": "Easy to use! Very helpful staff!",
+          "ratingOnly": false,
+          "url": "https://apps.shopify.com/reviews/2404505"
+        }
+      ],
       "canva-connect": []
     }
   }
