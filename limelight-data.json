@@ -3732,50 +3732,131 @@
             ]
           }
         }
+      },
+      {
+        "date": "2026-11-09",
+        "label": "November 9, 2026",
+        "apps": {
+          "seguno": {
+            "rating": 4.8,
+            "total": 733,
+            "stars": {
+              "1": 14,
+              "2": 4,
+              "3": 12,
+              "4": 37,
+              "5": 666
+            },
+            "snippets": [
+              {
+                "text": "So far I've been beyond happy with my Seguno experience.  They have gone above and beyond to make sure I'm getting the most out of email marketing.  Their attention to detail has been so helpful to my business!",
+                "meta": "Swish Avenue · November 5, 2026",
+                "stars": 5
+              },
+              {
+                "text": "I always second guess myseld when setting up automations and trying to connect the dots, and now... no second guessing!  Josh walked me through everything in a very timely and polite manner, with video or pictures to ass",
+                "meta": "Maison Khloe · October 30, 2026",
+                "stars": 5
+              },
+              {
+                "text": "Great support and an easy to use app.",
+                "meta": "Adea - Everyday Luxury · October 29, 2026",
+                "stars": 5
+              }
+            ]
+          },
+          "bulk-discount-generator": {
+            "rating": 4.9,
+            "total": 278,
+            "stars": {
+              "1": 4,
+              "2": 0,
+              "3": 2,
+              "4": 9,
+              "5": 263
+            },
+            "snippets": [
+              {
+                "text": "Easy to use! Very helpful staff!",
+                "meta": "SammiBee · October 22, 2026",
+                "stars": 5
+              },
+              {
+                "text": "tres facile d'utilisation et tres pratique",
+                "meta": "Ekkivibes · October 4, 2026",
+                "stars": 5
+              },
+              {
+                "text": "I love this app so much, but I wish Shopify would buy them out or they'd offer more codes at a discount. 4 stars because of the price. Thankfully this app exists but the price is steep considering we don't use it too oft",
+                "meta": "Bombshell Sportswear · September 23, 2026",
+                "stars": 4
+              }
+            ]
+          },
+          "canva-connect": {
+            "rating": 4.8,
+            "total": 395,
+            "stars": {
+              "1": 5,
+              "2": 2,
+              "3": 3,
+              "4": 8,
+              "5": 377
+            },
+            "snippets": [
+              {
+                "text": "This has made our Shopify design workflow much easier. Being able to access product images and videos directly in Canva means we no longer have to keep downloading and re-uploading files. I can quickly create polished vi",
+                "meta": "Tidepoolkids Online · August 25, 2026",
+                "stars": 5
+              },
+              {
+                "text": "Canva Connect has been a huge productivity boost for creating high-quality product images and keeping our design workflow streamlined. While there is definitely a learning curve when first setting things up, the app gene",
+                "meta": "Savannah Lane Jewelry · August 23, 2026",
+                "stars": 5
+              },
+              {
+                "text": "The best  app ever, in it's category....",
+                "meta": "NORTH BERRY · August 17, 2026",
+                "stars": 5
+              }
+            ]
+          }
+        }
       }
     ]
   },
   "unreplied": {
-    "checkedAt": "Nov 2, 2026, 9:30 AM",
+    "checkedAt": "Nov 9, 2026, 11:05 AM",
     "results": {
       "seguno": [
         {
-          "reviewId": "2413873",
-          "store": "Maison Khloe",
-          "date": "October 30, 2026",
+          "reviewId": "2422106",
+          "store": "Gifted One Princes",
+          "date": "November 7, 2026",
           "stars": 5,
-          "text": "I always second guess myseld when setting up automations and trying to connect the dots, and now... no second guessing!  Josh walked me through everything in a very timely and polite manner, with video or pictures to assist. Very helpful and very happy with Seguno.",
-          "ratingOnly": false,
-          "url": "https://apps.shopify.com/reviews/2413873"
+          "text": "",
+          "ratingOnly": true,
+          "url": "https://apps.shopify.com/reviews/2422106"
         },
         {
-          "reviewId": "2412366",
-          "store": "Adea - Everyday Luxury",
-          "date": "October 29, 2026",
+          "reviewId": "2420513",
+          "store": "Swish Avenue",
+          "date": "November 5, 2026",
           "stars": 5,
-          "text": "Great support and an easy to use app.",
+          "text": "So far I've been beyond happy with my Seguno experience.  They have gone above and beyond to make sure I'm getting the most out of email marketing.  Their attention to detail has been so helpful to my business!",
           "ratingOnly": false,
-          "url": "https://apps.shopify.com/reviews/2412366"
-        },
-        {
-          "reviewId": "2408675",
-          "store": "VERGE Lifestyle & Urban Culture Magazine",
-          "date": "October 26, 2026",
-          "stars": 5,
-          "text": "I've been using this app for years. It's a great asset. The customer service is excellent, and they respond immediately when you need them!",
-          "ratingOnly": false,
-          "url": "https://apps.shopify.com/reviews/2408675"
+          "url": "https://apps.shopify.com/reviews/2420513"
         }
       ],
       "bulk-discount-generator": [
         {
-          "reviewId": "2404505",
-          "store": "SammiBee",
-          "date": "October 22, 2026",
-          "stars": 5,
-          "text": "Easy to use! Very helpful staff!",
-          "ratingOnly": false,
-          "url": "https://apps.shopify.com/reviews/2404505"
+          "reviewId": "2416676",
+          "store": "Hoora",
+          "date": "November 2, 2026",
+          "stars": 1,
+          "text": "",
+          "ratingOnly": true,
+          "url": "https://apps.shopify.com/reviews/2416676"
         }
       ],
       "canva-connect": []
