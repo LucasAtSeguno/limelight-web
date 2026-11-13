@@ -3912,14 +3912,124 @@
             ]
           }
         }
+      },
+      {
+        "date": "2026-11-13",
+        "label": "November 13, 2026",
+        "apps": {
+          "seguno": {
+            "rating": 4.8,
+            "total": 734,
+            "stars": {
+              "1": 14,
+              "2": 4,
+              "3": 12,
+              "4": 37,
+              "5": 667
+            },
+            "snippets": [
+              {
+                "text": "So far I've been beyond happy with my Seguno experience.  They have gone above and beyond to make sure I'm getting the most out of email marketing.  Their attention to detail has been so helpful to my business!",
+                "meta": "Swish Avenue · November 5, 2026",
+                "stars": 5
+              },
+              {
+                "text": "I always second guess myseld when setting up automations and trying to connect the dots, and now... no second guessing!  Josh walked me through everything in a very timely and polite manner, with video or pictures to ass",
+                "meta": "Maison Khloe · October 30, 2026",
+                "stars": 5
+              },
+              {
+                "text": "Great support and an easy to use app.",
+                "meta": "Adea - Everyday Luxury · October 29, 2026",
+                "stars": 5
+              }
+            ]
+          },
+          "bulk-discount-generator": {
+            "rating": 4.9,
+            "total": 279,
+            "stars": {
+              "1": 4,
+              "2": 0,
+              "3": 2,
+              "4": 9,
+              "5": 264
+            },
+            "snippets": [
+              {
+                "text": "Excellente app ! Je l’utilise pour générer des centaines de codes de réduction destinés à nos partenariats (marketplaces, etc.), et c’est un vrai gain de temps. La création est rapide, l’export se fait en un clic, tout e",
+                "meta": "Bloon Paris · November 10, 2026",
+                "stars": 5
+              },
+              {
+                "text": "Easy to use! Very helpful staff!",
+                "meta": "SammiBee · October 22, 2026",
+                "stars": 5
+              },
+              {
+                "text": "tres facile d'utilisation et tres pratique",
+                "meta": "Ekkivibes · October 4, 2026",
+                "stars": 5
+              }
+            ]
+          },
+          "canva-connect": {
+            "rating": 4.8,
+            "total": 395,
+            "stars": {
+              "1": 5,
+              "2": 2,
+              "3": 3,
+              "4": 8,
+              "5": 377
+            },
+            "snippets": [
+              {
+                "text": "This has made our Shopify design workflow much easier. Being able to access product images and videos directly in Canva means we no longer have to keep downloading and re-uploading files. I can quickly create polished vi",
+                "meta": "Tidepoolkids Online · August 25, 2026",
+                "stars": 5
+              },
+              {
+                "text": "Canva Connect has been a huge productivity boost for creating high-quality product images and keeping our design workflow streamlined. While there is definitely a learning curve when first setting things up, the app gene",
+                "meta": "Savannah Lane Jewelry · August 23, 2026",
+                "stars": 5
+              },
+              {
+                "text": "The best  app ever, in it's category....",
+                "meta": "NORTH BERRY · August 17, 2026",
+                "stars": 5
+              }
+            ]
+          }
+        }
       }
     ]
   },
   "unreplied": {
-    "checkedAt": "Nov 10, 2026, 11:09 AM",
+    "checkedAt": "Nov 13, 2026, 2:12 PM",
     "results": {
-      "seguno": [],
-      "bulk-discount-generator": [],
+      "seguno": [
+        {
+          "reviewId": "2426448",
+          "store": "One Kourt",
+          "date": "November 11, 2026",
+          "stars": 5,
+          "text": "",
+          "ratingOnly": true,
+          "url": "https://apps.shopify.com/reviews/2426448"
+        }
+      ],
+      "bulk-discount-generator": [
+        {
+          "reviewId": "2424764",
+          "store": "Bloon Paris",
+          "date": "November 10, 2026",
+          "stars": 5,
+          "text": "Excellente app ! Je l’utilise pour générer des centaines de codes de réduction destinés à nos partenariats (marketplaces, etc.), et c’est un vrai gain de temps. La création est rapide, l’export se fait en un clic, tout est simple et intuitif. Et quand j’ai eu besoin d’aide, le service client a répon",
+          "ratingOnly": false,
+          "url": "https://apps.shopify.com/reviews/2424764"
+        }
+      ],
       "canva-connect": []
     }
   }
