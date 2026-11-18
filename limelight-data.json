@@ -4186,66 +4186,10 @@
     ]
   },
   "unreplied": {
-    "checkedAt": "Nov 18, 2026, 2:04 PM",
+    "checkedAt": "Nov 18, 2026, 2:13 PM",
     "results": {
-      "seguno": [
-        {
-          "reviewId": "2432846",
-          "store": "Hipstirr",
-          "date": "November 17, 2026",
-          "stars": 5,
-          "text": "This is a very robust App, and their customer support is amazing!!!",
-          "ratingOnly": false,
-          "url": "https://apps.shopify.com/reviews/2432846"
-        },
-        {
-          "reviewId": "2429135",
-          "store": "Geechee Mama",
-          "date": "November 13, 2026",
-          "stars": 5,
-          "text": "",
-          "ratingOnly": true,
-          "url": "https://apps.shopify.com/reviews/2429135"
-        },
-        {
-          "reviewId": "2426448",
-          "store": "One Kourt",
-          "date": "November 11, 2026",
-          "stars": 5,
-          "text": "",
-          "ratingOnly": true,
-          "url": "https://apps.shopify.com/reviews/2426448"
-        }
-      ],
-      "bulk-discount-generator": [
-        {
-          "reviewId": "2432700",
-          "store": "Albany Park",
-          "date": "November 17, 2026",
-          "stars": 5,
-          "text": "This app is awesome! Straight forward to use, user friendly and works as advertised. Even more importantly, their support is OUTSTANDING. Prompt and super helpful. HIGHLY recommend their solution.",
-          "ratingOnly": false,
-          "url": "https://apps.shopify.com/reviews/2432700"
-        },
-        {
-          "reviewId": "2432526",
-          "store": "Osaka World",
-          "date": "November 17, 2026",
-          "stars": 5,
-          "text": "Works like expected and great customer service!",
-          "ratingOnly": false,
-          "url": "https://apps.shopify.com/reviews/2432526"
-        },
-        {
-          "reviewId": "2424764",
-          "store": "Bloon Paris",
-          "date": "November 10, 2026",
-          "stars": 5,
-          "text": "Excellente app ! Je l’utilise pour générer des centaines de codes de réduction destinés à nos partenariats (marketplaces, etc.), et c’est un vrai gain de temps. La création est rapide, l’export se fait en un clic, tout est simple et intuitif. Et quand j’ai eu besoin d’aide, le service client a répon",
-          "ratingOnly": false,
-          "url": "https://apps.shopify.com/reviews/2424764"
-        }
-      ],
+      "seguno": [],
+      "bulk-discount-generator": [],
       "canva-connect": []
     }
   }
